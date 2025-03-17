@@ -169,7 +169,7 @@ function muncultombol2() {
 }
 function menuju() {
   if (fungtom2 == 1) {
-    window.location = "https://wa.me/+62881036475301" + pesanwhatsapp;
+    window.location = "https://wa.me/+62881036475301/hallo" + pesanwhatsapp;
   }
 }
 
