@@ -170,7 +170,8 @@ function muncultombol2() {
 function menuju() {
   if (fungtom2 == 1) {
     window.location =
-      "https://wa.me/62881036475301" + (pesanwhatsapp);
+      "https://wa.me/62881036475301?text=" + encodeURIComponent("Saya Terima Kamu Dan saya sayang kamu juga dari dulu");
+
   }
 }
 
