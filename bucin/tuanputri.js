@@ -172,7 +172,6 @@ function menuju() {
     window.location =
       "https://wa.me/62881036475301?text=" +
       encodeURIComponent("Saya Terima Kamu, Dan Hari Ini Hari Jadian Kita Ya!");
-    ("Saya Terima Kamu, Dan Hari Ini Hari Jadian Kita Ya!");
   }
 }
 
