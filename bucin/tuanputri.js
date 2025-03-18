@@ -167,13 +167,13 @@ function muncultombol2() {
   fungtom2 = 1;
   TombolWA.style = "opacity:1;transform:scale(1)";
 }
-function menuju() {
-  if (fungtom2 == 1) {
-    window.location =
-      "https://wa.me/62881036475301?text=" + encodeURIComponent("Saya Terima Kamu Dan saya sayang kamu juga dari dulu");
-
-  }
-}
+   function menuju2() {
+        window.location =
+          "https://wa.me/62881036475301?text=" +
+          encodeURIComponent
+          ("Saya Terima Kamu, Dan Hari Ini Hari Jadian Kita Ya!");
+          ("Saya Tunggu Di Rumah, Jangan Lupa Datang Ya!");
+      }
 
 tinggi = iniakhir.offsetHeight;
 function tentukantinggi() {
