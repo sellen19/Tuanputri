@@ -170,14 +170,22 @@
         tes();
         teksjudulakhir = "Yahh&#128531;";
         tekskalimatakhir = "Yaudah kalo kamu gamau, biar aku aja yang jadi pacar kamu, hehe&#128518;&#129392;";
+        menuju2(); // Call the new function to send a WhatsApp message
       }
+
+      function menuju2() {
+        window.location =
+          "https://wa.me/62881036475301?text=" +
+          encodeURIComponent("Saya ingin fokus pada karir saya.");
+      }
+
 
       // Teks Akhir
       teksjudulakhir2 = "I Love You!";
       tekspalingakhir = "Jangan lupa balas pesannya ke Whatsapp aku ya!&#128519;";
 
       // Teks yang akan dikirim ke WhatsApp
-      pesanwhatsapp = "hallo#128512;";
+      pesanwhatsapp = "https://wa.me/62881036475301?text=Hai%20Cantik!MauAtauTidak|JawabSekarangAtauNunggu5menitLagi?&#128512;";
 
       const body = document.querySelector("body");
       initom.style = "opacity:0;bottom:0;transition:none";
